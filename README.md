@@ -9,3 +9,5 @@ Here is a Chrome Extension that replaces Tampermonkey for loading the bootstrap 
 5. An orange Z icon should appear in the Chrome toolbar.
 6. Open a new tab and go to app.zipwhip.com and the orange Z icon should show a blue checkmark on it.
 7. View the Console and look for the "Plugin -" messages to see if it's working.
+
+If you modify the boot.js code, go back to the chrome://extensions/ page and reload the extension.
