@@ -35,9 +35,3 @@ setTimeout(function () {
 
   console.log("Plugin - Bootsrapper ran");
 }, 1000);
-
-// Tell background.js to add checkmark to toolbar icon once boot.js is loaded
-chrome.runtime.sendMessage({
-  "message": "add_checkmark"
-});
-console.log("Plugin - add_checkmark");

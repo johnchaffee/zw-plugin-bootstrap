@@ -3,11 +3,6 @@
   "name": "Zipwhip Plugin Bootstrapper",
   "description": "Javascript bootstrap framework for Zipwhip Plugins",
   "version": "0.1",
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  },
   "content_scripts": [
     {
       "matches": [
